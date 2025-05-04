@@ -5,7 +5,7 @@ type InputProps = {
     onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
     placeholder?: string;
     type?: string;
-    style?: React.CSSProperties; // Добавляем
+    style?: React.CSSProperties;
 };
 
 export const Input = ({
@@ -21,7 +21,7 @@ export const Input = ({
             value={value}
             onChange={onChange}
             placeholder={placeholder}
-            style={style} // Пробрасываем стили
+            style={style}
         />
     );
 };

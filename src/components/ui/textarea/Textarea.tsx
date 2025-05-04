@@ -4,7 +4,7 @@ type TextareaProps = {
     value: string;
     onChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
     placeholder?: string;
-    style?: React.CSSProperties; // Добавляем
+    style?: React.CSSProperties;
 };
 
 export const Textarea = ({
@@ -18,7 +18,7 @@ export const Textarea = ({
             value={value}
             onChange={onChange}
             placeholder={placeholder}
-            style={style} // Пробрасываем стили
+            style={style}
         />
     );
 };

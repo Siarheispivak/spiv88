@@ -4,7 +4,7 @@ type CheckboxProps = {
     checked: boolean;
     onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
     label?: string;
-    style?: React.CSSProperties; // Добавляем
+    style?: React.CSSProperties;
 };
 
 export const Checkbox = ({
